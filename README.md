@@ -1,4 +1,4 @@
-# 🩺 Breast Ultrasound Image Classification
+#  Breast Ultrasound Image Classification
 ### Using Depthwise Separable CNNs with Class-Imbalance Mitigation Strategies
 
 <div align="center">
@@ -17,7 +17,7 @@
 
 ---
 
-## 📋 Table of Contents
+##  Table of Contents
 
 - [Overview](#-overview)
 - [Key Results](#-key-results)
@@ -33,7 +33,7 @@
 
 ---
 
-## 🔍 Overview
+##  Overview
 
 Breast cancer is the leading cause of cancer-related mortality among women globally. This project builds an automated **computer-aided diagnosis (CAD)** system for classifying breast ultrasound images into three clinically significant categories:
 
@@ -47,7 +47,7 @@ The project systematically compares **5 experimental configurations** across two
 
 ---
 
-## 🏆 Key Results
+##  Key Results
 
 | Rank | Method | Accuracy | Precision | Recall | **F1 Score** |
 |------|--------|----------|-----------|--------|-------------|
@@ -61,7 +61,7 @@ The project systematically compares **5 experimental configurations** across two
 
 ---
 
-## 📦 Dataset
+##  Dataset
 
 ### BUSI — Breast Ultrasound Images Dataset
 
@@ -97,17 +97,17 @@ Total: 780 images
 
 ---
 
-## 🗂️ Project Structure
+##  Project Structure
 
 ```
 breast-ultrasound-classification/
 │
-├── 📓 BUSI_Classification_Pointwise_Depthwise.ipynb   # Main notebook
+├──  BUSI_Classification_Pointwise_Depthwise.ipynb   # Main notebook
 │
-├── 📄 breast_ultrasound_ieee_paper.tex                # IEEE paper (LaTeX)
-├── 📄 README.md                                       # This file
+├──  breast_ultrasound_ieee_paper.tex                # IEEE paper (LaTeX)
+├──  README.md                                       # This file
 │
-├── 📊 outputs/
+├──  outputs/
 │   ├── class_distribution.png                        # EDA class distribution plot
 │   ├── curves_baseline_cnn.png                       # Training curves — Baseline
 │   ├── curves_depthwise_separable_cnn.png            # Training curves — DS-CNN
@@ -116,12 +116,12 @@ breast-ultrasound-classification/
 │   ├── curves_ds-cnn_+_augmentation.png              # Training curves — Augmentation
 │   └── all_confusion_matrices.png                    # All 5 confusion matrices
 │
-└── 📋 requirements.txt                               # Python dependencies
+└──  requirements.txt                               # Python dependencies
 ```
 
 ---
 
-## ⚙️ Methodology
+##  Methodology
 
 ### Preprocessing Pipeline
 
@@ -179,7 +179,7 @@ $$\frac{C_{DS}}{C_{std}} = \frac{1}{N} + \frac{1}{k^2} \approx \frac{1}{8.9} \qu
 
 ---
 
-## 🧪 Experiments
+##  Experiments
 
 ### Training Setup
 
@@ -246,7 +246,7 @@ Well-classified majority-class samples contribute near-zero gradient, allowing t
 
 ---
 
-## 🚀 Installation
+##  Installation
 
 ### Prerequisites
 
@@ -298,7 +298,7 @@ print("Dataset path:", path)
 
 ---
 
-## ▶️ Usage
+##  Usage
 
 ### Run the Full Notebook
 
@@ -341,7 +341,7 @@ Depthwise Separable CNN  0.794872   0.789726 0.794872  0.773189
 
 ---
 
-## 📊 Results & Visualisations
+##  Results & Visualisations
 
 ### Performance Comparison
 
@@ -375,7 +375,7 @@ DS-CNN+Augment      ████████████████████
 
 ---
 
-## 📄 Research Paper
+##  Research Paper
 
 This project is accompanied by a full **IEEE Conference-format research paper** written in LaTeX.
 
@@ -398,7 +398,7 @@ pdflatex breast_ultrasound_ieee_paper.tex
 
 ---
 
-## 🔮 Future Work
+##  Future Work
 
 - [ ] **Pretrained Backbones** — ResNet-50, EfficientNet-B0, ViT with ImageNet weights
 - [ ] **Combined Strategies** — DS-CNN + Oversampling + Focal Loss jointly
@@ -409,7 +409,7 @@ pdflatex breast_ultrasound_ieee_paper.tex
 
 ---
 
-## 📚 References
+##  References
 
 1. Al-Dhabyani W, Gomaa M, Khaled H, Fahmy A. *Dataset of breast ultrasound images.* Data in Brief, 28, 104863, **2020**.
 
@@ -425,7 +425,7 @@ pdflatex breast_ultrasound_ieee_paper.tex
 
 ---
 
-## 📜 License
+##  License
 
 This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
 
@@ -433,9 +433,9 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 
 <div align="center">
 
-Made with ❤️ by **Harsh Tripathi**
+Made with  by **Harsh Tripathi**
 Department of AI & Data Science · IIIT Raichur · Karnataka, India
 
-⭐ *If you found this useful, please consider starring the repository!*
+ *If you found this useful, please consider starring the repository!*
 
 </div>
